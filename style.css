@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 50px;
+  background:#f1f3f6; 
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+input, select, button {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #c1c0c0;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+th, td {
+  border: 1px solid #d3d1d1;
+  padding: 10px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background: solid #d3d1d1;
+}
+/* Status colors */
+.status-applied {
+  color: #007bff; /* Blue */
+  font-weight: bold;
+}
+
+.status-interview {
+  color: #ffc107; /* Amber */
+  font-weight: bold;
+}
+
+.status-offer {
+  color: #28a745; /* Green */
+  font-weight: bold;
+}
+
+.status-rejected {
+  color: #dc3545; /* Red */
+  font-weight: bold;
+}
+
+textarea {
+  width: 100%;
+  min-height: 50px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #c8c7c7;
+}
